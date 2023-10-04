@@ -9,21 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api2", "src\ApiTwo\Api2\Api
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedUtils", "src\Libs\SharedUtils\SharedUtils.csproj", "{56CE01BF-FAD8-4720-BE56-21DE6E756414}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiOne", "ApiOne", "{7CEF11C8-D367-4276-9A48-6F3FC8616596}"
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.UnitTests", "src\ApiOne\Api1.UnitTests\Api1.UnitTests.csproj", "{DDBE4FC0-8919-4E69-B873-B2350E66DB8A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiTwo", "ApiTwo", "{641C2147-97DA-4824-A862-20BB62A3A6FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.ContractTests", "src\ApiOne\Api1.ContractTests\Api1.ContractTests.csproj", "{C8CFB2B8-10A0-4E61-B0A7-9016EFF3B244}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{6E65E5A2-933F-4376-AA30-F60FAF4842B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.UnitTests", "src\ApiTwo\Api2.UnitTests\Api2.UnitTests.csproj", "{8CC81532-C097-43F6-936A-6A619860764F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.UnitTests", "Api1.UnitTests\Api1.UnitTests.csproj", "{DDBE4FC0-8919-4E69-B873-B2350E66DB8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.ContractTests", "src\ApiTwo\Api2.ContractTests\Api2.ContractTests.csproj", "{A830B27B-8D9F-40A5-8917-4204D6CDCA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1.ContractTests", "Api1.ContractTests\Api1.ContractTests.csproj", "{C8CFB2B8-10A0-4E61-B0A7-9016EFF3B244}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.UnitTests", "Api2.UnitTests\Api2.UnitTests.csproj", "{8CC81532-C097-43F6-936A-6A619860764F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api2.ContractTests", "Api2.ContractTests\Api2.ContractTests.csproj", "{A830B27B-8D9F-40A5-8917-4204D6CDCA49}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedUtils.UnitTests", "SharedUtils.UnitTests\SharedUtils.UnitTests.csproj", "{648AA92D-61F5-4D4D-B31C-65558E70914B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedUtils.UnitTests", "src\Libs\SharedUtils.UnitTests\SharedUtils.UnitTests.csproj", "{648AA92D-61F5-4D4D-B31C-65558E70914B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
