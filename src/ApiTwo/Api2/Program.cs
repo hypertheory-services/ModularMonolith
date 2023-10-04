@@ -20,7 +20,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/{num:int}", ([FromServices] Utils utils, [FromRoute] int num) =>
 {
-    return Results.Ok($"{num} being even is {utils.IsEven(num)}");
+    return Results.Ok($"{num} being even is {utils.IsEven(num)} and the message is {utils.GetMessage()}");
 });
 
 app.Run();

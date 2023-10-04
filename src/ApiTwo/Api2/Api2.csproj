@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Api2\Api2.csproj" />
+    <ProjectReference Include="..\..\Libs\SharedUtils\SharedUtils.csproj" />
   </ItemGroup>
 
 </Project>

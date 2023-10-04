@@ -18,6 +18,10 @@ public class HomeController : ControllerBase
     {
         var response = Enumerable.Range(1, 100).Select(n => new { num = n, isEven = _utils.IsEven(n) }).ToList();
 
-        return Ok(response);
+        return Ok(new
+        {
+            Message = _utils.GetMessage(),
+            Data = response
+        });
     }
 }
